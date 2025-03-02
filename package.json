@@ -1,0 +1,16 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "node training",
+  "main": "index.js",
+  "scripts": {
+    "process_start_cross-env": "cross-env PORT=5000 NODE_ENV=production node ./lessons/process.js",
+    "process_start": "cross-env PORT=5000 NODE_ENV=production node ./lessons/process.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7"
+  }
+}
